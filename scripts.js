@@ -7,7 +7,7 @@ async function fetchMovies(searchTerm) {
       url: `https://moviedatabase8.p.rapidapi.com/Search/${encodeURIComponent(searchTerm)}`,
       headers: {
         'X-RapidAPI-Key': '1d99e12f2cmsh0a2bd2117bf3c0ap1cea93jsnd64406ec5094',
-        'X-RapidAPI-Host': 'moviedatabase8.p.rapidapi.com'
+        'X-RapidAPI-Host': 'gowatch.p.rapidapi.com'
       }
     };
   
